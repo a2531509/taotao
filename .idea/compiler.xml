@@ -12,8 +12,15 @@
         <module name="taotao-manager-service" />
         <module name="taotao-manager-web" />
       </profile>
+      <profile name="Annotation profile for fastdfs-client-java" enabled="true">
+        <sourceOutputDir name="../../../淘淘商城项目/fastdfs-client-java-master/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../淘淘商城项目/fastdfs-client-java-master/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fastdfs-client-java" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fastdfs-client-java" target="1.6" />
       <module name="taotao-common" target="1.7" />
       <module name="taotao-manager" target="1.7" />
       <module name="taotao-manager-dao" target="1.7" />
